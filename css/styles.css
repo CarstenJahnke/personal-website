@@ -1,11 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(34, 34, 34);
 }
-
 a {
   text-decoration: none;
 }
-
 .navigation:hover {
   background-color: rgb(50, 4, 149);
 }
