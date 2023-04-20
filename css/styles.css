@@ -1,6 +1,11 @@
 body {
   background-color: rgb(34, 34, 34);
 }
+
+a {
+  text-decoration: none;
+}
+
 .navigation:hover {
   background-color: rgb(50, 4, 149);
 }
@@ -37,10 +42,11 @@ body {
 }
 .about-me-title-header {
   color: rgb(255, 255, 255);
-  font-size: 15pt;
+  font-size: 20pt;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   margin-left: 20px;
+  text-align: center;
 }
 .about-me-title-text {
   color: rgb(255, 255, 255);
@@ -69,7 +75,8 @@ img.profile-picture:hover {
 main {
   background-color: #8a28a3;
   border: rgb(255, 255, 255) solid 3px;
-  border-radius: 30px;
+  border-radius: 50px;
+  padding: 2px;
   margin-left: 10px;
   margin-right: 10px;
 }
