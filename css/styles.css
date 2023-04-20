@@ -35,7 +35,14 @@ body {
   border-width: 3px;
   border-style: solid;
 }
-.about-me-title {
+.about-me-title-header {
+  color: rgb(255, 255, 255);
+  font-size: 15pt;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  margin-left: 20px;
+}
+.about-me-title-text {
   color: rgb(255, 255, 255);
   font-size: 15pt;
   font-family: "Open Sans", sans-serif;
@@ -58,4 +65,11 @@ img.profile-picture:hover {
   transform: scale(
     3
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+main {
+  background-color: #8a28a3;
+  border: rgb(255, 255, 255) solid 3px;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
